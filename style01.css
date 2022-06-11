@@ -1,0 +1,272 @@
+@charset "utf-8";
+.container {
+	width: 100%;
+}
+nav {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #D6A0ED;
+	opacity: 0.58;
+	font-size: large;
+	color: #1C5553;
+	position: fixed;
+}
+main header h3 {
+	text-align: center;
+	line-height: 70px;
+	font-weight: 700;
+	font-size: xx-large;
+	padding-top: 40px;
+	color: #84C0E6;
+}
+main header p {
+	line-height: 50px;
+	color: #16065C;
+	font-size: large;
+	text-align: center;
+}
+
+
+nav h1 {
+	margin-left: 20px;
+}
+nav p {
+	margin-right: 20px;
+}
+nav p a:hover  {
+	color: #77860D;
+}
+nav p a {
+	color: #3B3F44;
+}
+header {
+	background-image: url(素材/background.jpg);
+	width: 100%;
+	height: 50vh;
+}
+.parallaxie{
+
+}
+main article h3 {
+	text-align: center;
+	font-weight: 800;
+	font-size: xx-large;
+	color: #76D1F4;
+}
+.box01 .colt01 {
+	background-image: url(素材/台北・台北市立圖書館北投分館/taipei02.jpg);
+	width: 300px;
+	height: 198px;
+	background-position: center center;
+	border-radius: 5px;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	flex: 1;
+}
+h4 {
+	text-align: center;
+	font-size: large;
+	color: #C75BE7;
+}
+.col01 {
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 30px;
+	background-color: #020202;
+	color: #F5F3F3;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0.84;
+}
+.box01 .colt02 {
+	background-image: url(素材/台北・台北市立圖書館北投分館/taipei01.jpg);
+	width: 300px;
+	border-radius: 5px;
+	height: 198px;
+	display: flex;
+	align-items: flex-end;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+}
+.box01 {
+	display: flex;
+	width: 50%;
+	height: 198px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+h5 {
+	text-align: center;
+	font-size: large;
+	color: #53ADC9;
+}
+.map {
+	margin-top: 20px;
+	margin-left: 550px;
+
+
+}
+.box01 .colt03 {
+	background-image: url(素材/國際兒童圖書館/japan01.jfif);
+	width: 300px;
+	height: 198px;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	flex: 1;
+	border-radius: 5px;
+	align-items: flex-end;
+}
+.box01 .colt04 {
+	background-image: url(素材/國際兒童圖書館/japan02.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 300px;
+	height: 198px;
+	display: flex;
+	flex: 1;
+	border-radius: 5px;
+	align-items: flex-end;
+}
+.box01 .colt05 {
+	background-image: url(素材/巴黎國立圖書館/paris01.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 300px;
+	height: 198px;
+	display: flex;
+	flex: 1;
+	border-radius: 5px;
+	align-items: flex-end;
+}
+.box01 .colt06 {
+	border-radius: 5px;
+	background-image: url(素材/巴黎國立圖書館/paris02.jpg);
+	width: 300px;
+	height: 198px;
+	display: flex;
+	flex: 1;
+	align-items: flex-end;
+	background-position: center center;
+	background-size: cover;
+}
+.box01 .colt07 {
+	background-image: url(素材/都柏林聖三一學院圖書館/england01.jfif);
+	background-position: center center;
+	background-size: cover;
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt08 {
+	background-image: url(素材/都柏林聖三一學院圖書館/england02.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt09 {
+	background-image: url(素材/非洲塔博·姆貝基總統圖書館/africa01.jpg);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt10 {
+	background-image: url(素材/非洲塔博·姆貝基總統圖書館/africa02.jpg);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt11 {
+	background-image: url(素材/美國巴爾的摩約翰霍普金斯大學喬治皮博迪圖書館/america01.jpg);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt12 {
+	background-image: url(素材/美國巴爾的摩約翰霍普金斯大學喬治皮博迪圖書館/america%2002.jfif);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt13 {
+	background-image: url(素材/紐約公共圖書館/new%20york01.jpg);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt14 {
+	background-image: url(素材/紐約公共圖書館/new%20york02.JPG);
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.box01 .colt15 {
+	background-image: url(素材/維多利亞州立圖書館/europe01.jpg);
+	width: 300px;
+	border-radius: 5px;
+	height: 198px;
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+	display: flex;
+}
+.box01 .colt16 {
+	width: 300px;
+	height: 198px;
+	border-radius: 5px;
+	display: flex;
+	background-image: url(素材/維多利亞州立圖書館/europe02.jpg);
+	background-position: center center;
+	background-size: cover;
+	flex: 1;
+	align-items: flex-end;
+}
+.country {
+	background-color: #969595;
+}
